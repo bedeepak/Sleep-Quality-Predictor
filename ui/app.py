@@ -10,9 +10,9 @@ MODEL_PATH = os.path.join(BASE_DIR, 'model', 'sleep_model.pkl')
 model = joblib.load(MODEL_PATH)
 
 label_map = {
-    0: "Poor 😴",
-    1: "Average 🙂",
-    2: "Good 😄"
+    0: "Poor",
+    1: "Average",
+    2: "Good"
 }
 
 def predict_sleep():
